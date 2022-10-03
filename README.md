@@ -1,1 +1,0 @@
-# Projecte-final_AramiDani
