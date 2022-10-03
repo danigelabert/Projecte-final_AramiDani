@@ -11,27 +11,49 @@
 <body>
 <header>
     <div class="derecha">
-        <a href="PaginaPrincipal.html"><img src="" class="logo" alt="minilogo"></a>
+        <a href="PaginaPrincipal.html"><img src="imagenes/logo.png" class="logo" alt="minilogo"></a>
     </div>
     <div class="izquierda">
-        <div class="imagenes">
-            <p></p>
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Que estas buscando?" aria-label="#">
+                <button type="submit" class="searchButton"></button>
+            </div>
         </div>
-        <div class="log">
-            <button class="submit">Login</button>
-        </div>
-
     </div>
 </header>
 <nav>
-    <ul>
-        <li><a href="">Noticias</a></li>
-        <li><a href="">Video</a></li>
-        <li><a href="">Campeonato</a></li>
-        <li><a href="">Reslutados</a></li>
-        <li><a href="">WSC+</a></li>
-        <li><a href="">Live</a></li>
-        <li><a href="">Formulario</a></li>
+<!--    <ul class="horizontal">-->
+<!--        <li>-->
+<!--            <a href="">Productos</a>-->
+<!--            <ul class="vertical">-->
+<!--                <li>Mobiles</li>-->
+<!--                <li>Ordenadores</li>-->
+<!--            </ul>-->
+<!--        </li>-->
+<!--        <li><a href="">Belleza</a></li>-->
+<!--        <li><a href="">Deportes</a></li>-->
+<!--        <li><a href="">Tecnologia</a></li>-->
+<!--    </ul>-->
+    <ul class="menu-horizontal">
+        <li><a href="#">Inicio</a></li>
+        <li>
+            <a href="#">Cursos</a>
+            <ul class="menu-vertical">
+                <li><a href="#">Html</a></li>
+                <li><a href="#">Css</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Inscripción</a>
+            <ul class="menu-vertical">
+                <li><a href="#">Anual</a></li>
+                <li><a href="#">Mensual</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+
     </ul>
 </nav>
 <div class="texto">
