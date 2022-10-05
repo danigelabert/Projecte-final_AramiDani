@@ -11,27 +11,37 @@
 <body>
 <header>
   <div class="derecha">
-    <a href="PaginaPrincipal.html"><img src="" class="logo" alt="minilogo"></a>
+    <a href="PaginaPrincipal.html"><img src="imagenes/logo.png" class="logo" alt="minilogo"></a>
   </div>
   <div class="izquierda">
-    <div class="imagenes">
-      <p></p>
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Que estas buscando?" aria-label="#">
+        <button type="submit" class="searchButton"></button>
+      </div>
     </div>
-    <div class="log">
-      <button class="submit">Login</button>
-    </div>
-
+  </div>
+  <div class="carro">
+    <button class="carrito"></button>
+  </div>
+  <div class="login">
+    <button class="redondo"></button>
   </div>
 </header>
 <nav>
-  <ul>
-    <li><a href="">Noticias</a></li>
-    <li><a href="">Video</a></li>
-    <li><a href="">Campeonato</a></li>
-    <li><a href="">Reslutados</a></li>
-    <li><a href="">WSC+</a></li>
-    <li><a href="">Live</a></li>
-    <li><a href="">Formulario</a></li>
+  <ul class="menu-horizontal">
+    <li>
+      <a href="#">Productos</a>
+      <ul class="menu-vertical">
+        <li><a href="#">Mobiles</a></li>
+        <li><a href="#">Ordenadores</a></li>
+        <li><a href="#">Perifericos</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Belleza</a></li>
+    <li><a href="#">Deportes</a></li>
+    <li><a href="#">Decoración</a></li>
+
   </ul>
 </nav>
 <div class="texto">
@@ -54,34 +64,57 @@
     <label><input type="checkbox" value="max"> Més de 500 EUR </label><br>
   </aside>
   <article>
-    <div id="titol">
-      <h2 id="resultat">RESULTADOS</h2>
+    <div id="resultat">
+      <h2>RESULTADOS</h2>
     </div>
-    <div class="producte">
-      <div class="imgprodcute">
-        <img class="poduct" src="iPhone%2014%20Pro%20Max.jpg">
-      </div>
-      <h2>Iphone 14 Pro Max</h2> </br>
-      <h1>1.499€</h1>
-    </div>
-    <div class="producte">
-      <div class="imgprodcute">
-        <img src="iPhone%2014%20Pro%20Max.jpg">
-      </div>
-    </div>
-    <div class="producte">
-      <div class="imgprodcute">
-        <img src="iPhone%2014%20Pro%20Max.jpg">
-      </div>
-    </div>
-    <div class="producte">
-      <div class="imgprodcute">
-        <img src="iPhone%2014%20Pro%20Max.jpg">
-      </div>
-      <h2>Iphone 14 Pro Max</h2> </br>
-      <h1>1.499€</h1>
-    </div>
+    <div id="article">
+      <div class="producto">
 
+      </div>
+      <div class="producto">
+
+      </div>
+      <div class="producto">
+
+      </div>
+      <div class="producto">
+
+      </div>
+      <div class="producto">
+
+      </div>
+      <div class="producto">
+
+      </div>
+
+    </div>
+<!--    <div id="titol">-->
+<!--      <h2 id="resultat">RESULTADOS</h2>-->
+<!--    </div>-->
+<!--    <div class="divproducte">-->
+<!--      <div class="imgprodcute">-->
+<!--        <img class="poduct" src="iPhone%2014%20Pro%20Max.jpg">-->
+<!--      </div>-->
+<!--      <h2>Iphone 14 Pro Max</h2> </br>-->
+<!--      <h1>1.499€</h1>-->
+<!--    </div>-->
+<!--    <div class="divproducte">-->
+<!--      <div class="imgprodcute">-->
+<!--        <img src="iPhone%2014%20Pro%20Max.jpg">-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="divproducte">-->
+<!--      <div class="imgprodcute">-->
+<!--        <img src="iPhone%2014%20Pro%20Max.jpg">-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="divproducte">-->
+<!--      <div class="imgprodcute">-->
+<!--        <img src="iPhone%2013.jpg">-->
+<!--      </div>-->
+<!--      <h2>Iphone 13</h2> </br>-->
+<!--      <h1>999€</h1>-->
+<!--    </div>-->
 
   </article>
 </div>
@@ -114,7 +147,6 @@
     </ul>
   </div>
   <div class="fot4">
-
   </div>
 </footer>
 </body>
