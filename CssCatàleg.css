@@ -29,6 +29,7 @@ article{
     flex-grow: 3;
     height: auto;
     margin-right: 10px;
+    margin-bottom: 1.5em;
 }
 
 
@@ -43,7 +44,7 @@ aside{
 
 footer{
     background-color: #616161;
-    width: 100%;
+    width:100%;
     height: auto;
     display:flex;
 }
@@ -51,7 +52,7 @@ footer{
 .texto{
     display: flex;
     flex-flow: row;
-    width: 100%;
+    width: 99%;
     padding: 0;
     margin: 5px;
     height: auto;
@@ -262,10 +263,7 @@ nav{
     color: rgb(204, 204, 204);
 }
 
-article{
-    display: flex;
-    flex-wrap: nowrap;
-}
+
 
 .fot1{
     flex-grow: 1;
@@ -328,15 +326,6 @@ article{
     height: 50px;
     display: block;
     padding-left: 2em;
-}
-
-#article{
-    width: 80%;
-    height: auto;
-    /*border: black 1px solid;*/
-    position: absolute;
-    top: 14em;
-    left: 19%;
 }
 
 /*els altres productes*/
