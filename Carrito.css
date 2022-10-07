@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-flow: column;
-    background-color: #C5C5C5;
+    background-color: whitesmoke;
     margin: 0;
 }
 
@@ -26,8 +26,8 @@ nav{
 }
 
 article{
+    margin: -1em;
     width: 100%;
-    flex-grow: 3;
     padding: 2em;
     height: auto;
     border: black 1px solid;
@@ -202,7 +202,7 @@ footer{
     margin-left: 1.5em;
     margin-top: 1em;
     width: 60%;
-    height: 15em;
+    height: 10em;
     border: black 1px solid;
 }
 
@@ -212,7 +212,6 @@ footer{
     max-height: 10%;
     min-height: 10%;
     text-align: center;
-    border: black 1px solid;
 }
 
 .imgproducto img {
@@ -258,4 +257,19 @@ footer{
     height: 40px;
     border-radius: 10px;
 
+}
+
+.preu_total {
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    float: right;
+    border: black 1px solid;
+    margin-top: -16.3em;
+    padding-left: 2em;
+}
+
+#total {
+    color: #848484;
 }
