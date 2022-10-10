@@ -77,17 +77,17 @@ footer{
     width: 8%;
 }
 
-    .carrito{
-        background-image: url("imagenes/carrito.png");
-        background-position: center;
-        background-size: 30px;
-        background-repeat: no-repeat;
-        width: 40px;
-        height: 40px;
-        border-radius: 10px;
-        margin-top: 20%;
-        margin-left: 50%;
-    }
+.carrito{
+    background-image: url("imagenes/carrito.png");
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 60%;
+    margin-left: 150%;
+}
 
 .login{
     flex-grow: 1;
