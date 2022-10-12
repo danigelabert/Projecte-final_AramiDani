@@ -89,6 +89,16 @@ footer{
     margin-left: 150%;
 }
 
+.carro a{
+    cursor: none;
+}
+
+.carrito:hover{
+    background-color: #9b9b9b;
+    transition: 1s;
+    cursor: pointer;
+}
+
 .login{
     flex-grow: 1;
     display: flex;
@@ -104,8 +114,18 @@ footer{
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        margin-top: 15%;
-        margin-left: 30%;
+        margin-top: 35%;
+        margin-left: 50%;
+    }
+
+    .redondo:hover{
+        background-color: #9b9b9b;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .login a{
+        cursor: none;
     }
 
 .izquierda img{
