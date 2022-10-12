@@ -22,7 +22,7 @@ nav{
     height: 90px;
     padding: 0;
     margin-top: 0px;
-    border: black 1px solid;
+    background-color: white;
 }
 
 article{
