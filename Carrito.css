@@ -230,7 +230,7 @@ footer{
     max-height: 30%;
     float: right;
     border: black 1px solid;
-    margin-top: -16.3em;
+    margin-top: -30em;
     padding-left: 2em;
 }
 
@@ -285,8 +285,8 @@ footer{
     color:#ffffff;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:100px;
+    padding-right:100px;
     background-color:#FFD27D;
 }
 /* Este es el estilo al poner el cursor encima del boton*/
@@ -295,7 +295,7 @@ footer{
 }
 
 #botocompra {
-    margin-top: -9em;
+    margin-top: -23em;
     float: right;
     margin-right: 3%;
 }
